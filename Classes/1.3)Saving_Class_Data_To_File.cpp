@@ -1,3 +1,16 @@
+/**
+ * The above C++ program defines a class representing a YouTube channel, prompts the user to input
+ * channel details, and writes the channel data to a file.
+ * 
+ * @param channel The `channel` parameter in the `write_YouTube_Channel` function is an object of the
+ * `YouTube_Channel` class. It contains information about a YouTube channel such as its name, owner's
+ * name, number of subscribers, and a list of published video titles. This information is used to write
+ * the
+ * @param filename The `filename` parameter in the `write_YouTube_Channel` function is a string that
+ * represents the name of the file to which the YouTube channel data will be written. In the provided
+ * code, the filename is "YouTube_Channel.txt". This file will be opened in append mode, and the
+ * YouTube channel
+ */
 #include<iostream> // Include the header file for input and output operations
 #include<list> // Include the header file for using lists
 #include<fstream> // Include the header file for file stream operations
