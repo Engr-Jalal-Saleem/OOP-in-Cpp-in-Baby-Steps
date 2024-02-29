@@ -1,0 +1,27 @@
+Name :"JS Tech"
+Owner Name :"Jalal Saleem"
+Subscribers :"5000"
+Published Videos :""
+"Python"
+"Cpp"
+"JS"
+Name :"Pak Army"
+Owner Name :"ISPR"
+Subscribers :"5000"
+Published Videos :""
+"Shaheed"
+"Pakistan"
+"Kashmir"
+Name :"UET"
+Owner Name :"Jalal Saleem"
+Subscribers :"0"
+Published Videos :""
+EE
+KE
+Name :"EduMeUp"
+Owner Name :"Jalal Saleem"
+Subscribers :"500"
+Published Videos :""
+Newton
+Laws
+Physics
