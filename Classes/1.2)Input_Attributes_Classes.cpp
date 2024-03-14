@@ -41,6 +41,11 @@ class YouTube_Channel{
             cout<<vids<<endl;
         }
     }
+    YouTube_Channel(){
+        Name = "No Name";
+        OwnerName = "No Owner";
+        SubscribersCount = 0;
+    }
 };
 
 int main(){
