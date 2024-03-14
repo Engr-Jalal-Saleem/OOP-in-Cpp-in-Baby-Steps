@@ -14,15 +14,9 @@
 #include<iostream> // Include the header file for input and output operations
 #include<list> // Include the header file for using lists
 #include<fstream> // Include the header file for file stream operations
+#include "class.h" // Include the header file for the YouTube_Channel class
 using namespace std; // Using the standard namespace
 
-class YouTube_Channel{ // Define a class named YouTube_Channel
-    public:
-    string Name; // Declare a public member variable for the name of the YouTube channel
-    string OwnerName; // Declare a public member variable for the owner's name of the YouTube channel
-    int SubscribersCount; // Declare a public member variable for the number of subscribers of the YouTube channel
-    list<string> PublishedVideoTitles; // Declare a public member variable for the list of published video titles
-};
 
 void write_YouTube_Channel(const YouTube_Channel& channel, const string& filename){ // Define a function to write YouTube channel data to a file
     ofstream file(filename.c_str(), ios::app); // Open the file in append mode
