@@ -46,6 +46,9 @@ class YouTube_Channel{
         OwnerName = "No Owner";
         SubscribersCount = 0;
     }
+    ~YouTube_Channel(){
+        cout<<"Destructor called for "<<Name<<endl;
+    }
 };
 
 int main(){
